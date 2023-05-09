@@ -790,6 +790,8 @@ color: var(--color-text-h2-h3-titles);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     cursor: pointer;
+
+    transform: background-color var(--transition-duration-and-function), border-color var(--transition-duration-and-function), opasity var(--transition-duration-and-function);
 }
 
 .modal-form-fake-checkbox-icon {
